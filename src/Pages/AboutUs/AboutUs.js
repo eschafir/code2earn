@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 const AboutUs = () => {
     return (
         <Card style={{ width: '20rem' }}>
-            <Card.Img variant="top" src="Images/arnold.jpg" />
+            <Card.Img variant="top" src="https://avatarfiles.alphacoders.com/816/thumb-1920-81624.jpg" />
             <Card.Body>
                 <Card.Title>Arnold Schwarzenegger</Card.Title>
                 <Card.Text>
