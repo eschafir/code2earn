@@ -1,9 +1,4 @@
 import React from 'react';
-// import { MemoryRouter, Switch, Route } from 'react-router-dom';
-// import { LinkContainer } from 'react-router-bootstrap';
-
-import button from 'react-bootstrap/Button'
-
 import './nft-profile.css';
 
 function Profile(){
