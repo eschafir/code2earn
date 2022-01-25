@@ -1,4 +1,6 @@
 import React from "react";
+import './App.css';
+
 import {
   BrowserRouter as Router,
   Route,
@@ -10,7 +12,6 @@ import {
 import Home from "./Pages/Home/Home";
 import Explore from "./Pages/Explore/Explore";
 import Premium from "./Pages/Premium/Premium";
-import AboutUs from "./Pages/AboutUs/AboutUs";
 import SignOn from "./Pages/SignOn/SignOn";
 import NavBar from "./Components/Navbar/Navbar";
 
@@ -23,7 +24,6 @@ const App = () => {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/explore" element={<Explore />} />
           <Route exact path="/premium" element={<Premium />} />
-          <Route exact path="/aboutus" element={<AboutUs />} />
           <Route exact path="/signon" element={<SignOn />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
