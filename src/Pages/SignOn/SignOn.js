@@ -1,6 +1,12 @@
 import React from "react";
-import {GoogleLogin} from 'react-google-login'
-import Login from "../../Components/Login";
+// import Dashboard from "../Components/Dashboard/Dashboard.js";
+// import Preferences from "../Components/Preferences/Preferences.js";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes
+} from 'react-router-dom'
+
 
 const SignOn = () => {
     return(
@@ -9,6 +15,16 @@ const SignOn = () => {
             
             <Login/>
         </div>
+        
+        // <div className="wrapper">
+        //      <h1>Application</h1>
+        //         <Router>
+        //             <Routes>
+        //                 <Route exact path="/dashboard" element= {<Dashboard/>}/>
+        //                 <Route exact path="/preferences" element = {<Preferences/>}/>
+        //             </Routes>
+        //         </Router>
+        // </div>
     )
 }
 
