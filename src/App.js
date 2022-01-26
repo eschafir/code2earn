@@ -5,7 +5,8 @@ import {
   BrowserRouter as Router,
   Route,
   Navigate,
-  Routes
+  Routes,
+  Switch
 } from 'react-router-dom'
 
 
@@ -14,6 +15,7 @@ import Explore from "./Pages/Explore/Explore";
 import Premium from "./Pages/Premium/Premium";
 import SignOn from "./Pages/SignOn/SignOn";
 import NavBar from "./Components/Navbar/Navbar";
+import Login from "./Components/Login/login";
 
 const App = () => {
   return (
@@ -24,7 +26,7 @@ const App = () => {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/explore" element={<Explore />} />
           <Route exact path="/premium" element={<Premium />} />
-          <Route exact path="/signon" element={<SignOn />} />
+          <Route exact path="/signon" element={<Login />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </main>
