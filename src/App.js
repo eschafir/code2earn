@@ -18,7 +18,7 @@ import { AuthProvider } from "./contexts/AuthContexts";
  
 const App = () => {
   return (
-      <Container>
+
           <Router>
             <NavBar />
             <main>
@@ -35,7 +35,7 @@ const App = () => {
               </Routes>
             </main>
           </Router>
-      </Container>
+
   );
 }
 
