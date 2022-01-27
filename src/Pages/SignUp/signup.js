@@ -1,22 +1,21 @@
-import React , { useRef }from 'react'
+import React, { useRef } from 'react'
 import './signup.css'
-import { Form, Button, Card } from 'react-bootstrap'
-import { Container } from 'react-bootstrap'
+import { Form, Button, Card, Container } from 'react-bootstrap'
 import { useAuth } from '../../contexts/AuthContexts'
 
-export default function SignUp(){
+export default function SignUp() {
     const emailRef = useRef()
     const passwordRef = useRef()
     const passwordConfirmRef = useRef()
-    const { signup } = useAuth()
-    
-    function handleSubmit(e){
+    const { signup } = useAuth();
+
+    function handleSubmit(e) {
         e.preventDefault()
 
         signup(emailRef.current.value, passwordRef.current.value)
     }
- 
-    return(
+
+    return (
         <>
             <Container 
                 className="d-flex align-items center justify-content-center"
@@ -51,5 +50,6 @@ export default function SignUp(){
                 Already have an account? Log in
             </div>
         </>
+     
     )
 }
