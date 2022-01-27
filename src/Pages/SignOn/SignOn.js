@@ -8,12 +8,12 @@ import {
 } from 'react-router-dom'
 
 
-
 const SignOn = () => {
     return(
         <div className="container">
             <h1 className="text-center" style={{paddingTop: "30%"}}> Sign On </h1>
             
+            <Login/>
         </div>
         
         // <div className="wrapper">
