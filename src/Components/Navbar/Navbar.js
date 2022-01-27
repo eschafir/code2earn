@@ -13,7 +13,7 @@ function NavBar() {
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/Premium">Premium</Nav.Link>
                         <Nav.Link href="/Explore">Explore</Nav.Link>
-                        <Nav.Link href="/Signon">Sign in</Nav.Link>
+                        <Nav.Link href="/signup">Sign in</Nav.Link>
                         {/* <Nav.Link href="/Signon"><button class="btn btn-primary navbar-btn">Sign in</button> */}
 
                     </Nav>
