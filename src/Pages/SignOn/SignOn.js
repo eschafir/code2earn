@@ -1,10 +1,16 @@
 import React from "react";
+import {
+    BrowserRouter as Router,
+    Route,
+    Navigate,
+    Routes
+  } from 'react-router-dom'
+
 const SignOn = () => {
     return(
-        <div className="container">
-            <h1 className="text-center" style={{paddingTop: "30%"}}> Sign On </h1>
-            
-        </div>
+        <div className="wrapper">
+        <h1>Applications</h1>
+     </div>
     )
 }
 

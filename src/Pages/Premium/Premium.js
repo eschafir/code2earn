@@ -1,10 +1,12 @@
 import React from "react";
+import Footer from "../../Components/Footer/Footer";
+import Pricing from "../../Components/Pricing/Pricing"
 const Premium = () => {
     return(
-        <div className="container">
-            <h1 className="text-center" style={{paddingTop: "30%"}}> Premium </h1>
-            
-        </div>
+        <>
+        <Pricing />
+        <Footer></Footer>
+        </>
     )
 }
 
