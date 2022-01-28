@@ -1,12 +1,14 @@
 import React from "react";
+import './Home.css'
+import Footer from "../../Components/Footer/Footer";
+import Jumbotron from "../../Components/Jumbotron/Jumbotron";
 
 const Home = () => {
     return (
+    
         <body>
-            <div className="container">
-                <h1 className="text-center" style={{ paddingTop: "30%" }}> Home </h1>
-
-            </div>
+            <Jumbotron />
+            <Footer />
         </body>
     )
 }
