@@ -3,7 +3,7 @@ import './signup.css'
 import { Form, Button, Card, Container, Alert } from 'react-bootstrap'
 import { AuthProvider, useAuth } from '../../contexts/AuthContexts'
 import Dashboard from '../../Components/Dashboard/Dashboard'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 export default function SignUp() {
     const emailRef = useRef()
@@ -12,6 +12,7 @@ export default function SignUp() {
     const { signup } = useAuth()
     const [error, setError] = useState('')
     const [loading, setLoading] = useState(false)
+    const navigate = useNavigate()
 
     async function handleSubmit(e) {
         e.preventDefault()
@@ -24,6 +25,7 @@ export default function SignUp() {
             setError('')
             setLoading(true)
             await signup(emailRef.current.value, passwordRef.current.value)
+            navigate("/dashboard")
         } catch {
             setError('Failed to create an account')
         }

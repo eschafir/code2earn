@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react'
 import { Form, Button, Card, Container, Alert } from 'react-bootstrap'
 import { AuthProvider, useAuth } from '../../contexts/AuthContexts'
 import Dashboard from '../Dashboard/Dashboard'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 
 export default function SignIn() {
@@ -11,6 +11,7 @@ export default function SignIn() {
     const { signin } = useAuth()
     const [error, setError] = useState('')
     const [loading, setLoading] = useState(false)
+    const navigate = useNavigate()
 
     async function handleSubmit(e) {
         e.preventDefault()
@@ -19,6 +20,7 @@ export default function SignIn() {
             setError("")
             setLoading(true)
             await signin(emailRef.current.value, passwordRef.current.value)
+            navigate("/dashboard")
         } catch {
             setError('Failed to sign in')
         }
