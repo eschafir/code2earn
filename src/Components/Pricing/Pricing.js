@@ -12,7 +12,7 @@ class Pricing extends Component {
     <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
       <h1 class="display-4 fw-normal">Pricing</h1>
       <h2 class="fs-5 text-muted">Quickly build an effective progression in your coding skills to maximize your revenue and chances to nail those job interviews.
-        Our program is built to help you succeed.</h2>
+        Our program is built to help you earn while learning!</h2>
     </div>
   </header>
 
@@ -27,7 +27,7 @@ class Pricing extends Component {
             <h1 class="card-title pricing-card-title">$10<small class="text-muted fw-light">/mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>5 Questions per day</li>
-              <li>Monthly Login Lootbox</li>
+              <li>Monthly Shmecklebox</li>
               <li>Email support</li>
               <li>Help center access</li>
             </ul>
@@ -44,7 +44,7 @@ class Pricing extends Component {
             <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>15 Questions per day</li>
-              <li>Weekly Login Lootbox</li>
+              <li>Weekly Shmecklebox</li>
               <li>Priority email support</li>
               <li>Help center access</li>
             </ul>
@@ -61,7 +61,7 @@ class Pricing extends Component {
             <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>30 Questions per day</li>
-              <li>Daily Login Lootbox</li>
+              <li>Daily Shmecklebox</li>
               <li>Phone and email support</li>
               <li>Help center access</li>
             </ul>

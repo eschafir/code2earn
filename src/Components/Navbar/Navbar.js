@@ -14,7 +14,6 @@ function NavBar() {
                     <Nav className="me-auto">
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/Premium">Premium</Nav.Link>
-                        <Nav.Link href="/Explore">Explore</Nav.Link>
                         {/* <Nav.Link href="/Signon"><button class="btn btn-primary navbar-btn">Sign in</button> */}
                         <NavDropdown
                         id="nav-dropdown-dark-example"
