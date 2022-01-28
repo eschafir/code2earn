@@ -2,7 +2,6 @@ import React, { useRef, useState } from 'react'
 import './signup.css'
 import { Form, Button, Card, Container, Alert } from 'react-bootstrap'
 import { AuthProvider, useAuth } from '../../contexts/AuthContexts'
-import Dashboard from '../../Components/Dashboard/Dashboard'
 import { Link, useNavigate } from 'react-router-dom'
 
 export default function SignUp() {

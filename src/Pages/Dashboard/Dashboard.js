@@ -1,7 +1,5 @@
 import React from 'react';
 import './Dashboard.css'
-import { Carousel, Table } from 'react-bootstrap';
-import { Grid, Row, Col } from 'react-bootstrap';
 import Footer from '../../Components/Footer/Footer';
 
 export default function Dashboard() {

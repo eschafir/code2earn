@@ -1,6 +1,5 @@
 import React from "react";
 import './App.css';
-import { Container } from 'react-bootstrap'
 import { AuthProvider } from "./contexts/AuthContexts";
 
 import {
@@ -15,8 +14,8 @@ import Explore from "./Pages/Explore/Explore";
 import Premium from "./Pages/Premium/Premium";
 import NavBar from "./Components/Navbar/Navbar";
 import SignUp from "./Pages/SignUp/signup";
-import SignIn from "./Components/SignIn/Signin";
-import Dashboard from "./Components/Dashboard/Dashboard";
+import SignIn from "./Pages/SignIn/Signin";
+import Dashboard from "./Pages/Dashboard/Dashboard";
 import Preferences from "./Pages/Preferences/Preferences";
  
 /*
