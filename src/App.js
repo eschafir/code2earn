@@ -17,6 +17,7 @@ import NavBar from "./Components/Navbar/Navbar";
 import SignUp from "./Pages/SignUp/signup";
 import SignIn from "./Components/SignIn/Signin";
 import Dashboard from "./Components/Dashboard/Dashboard";
+import Preferences from "./Pages/Preferences/Preferences";
  
 /*
     TODO: Sign In page needs to let user that credentials are correct. Dashboard needs to be directed by Sign In page after
@@ -32,6 +33,7 @@ const App = () => {
                 <Route exact path="/" element={<Home />} />
                 <Route exact path="/explore" element={<Explore />} />
                 <Route exact path="/premium" element={<Premium />} />
+                <Route exact path="/preferences" element={<Preferences />} />
                 <Route exact path="/signup" element={
                   <AuthProvider>
                     <SignUp/> 
