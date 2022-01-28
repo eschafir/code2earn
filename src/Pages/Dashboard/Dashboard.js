@@ -15,8 +15,8 @@ export default function Dashboard() {
           <div class="col-md-6"/>
           <section class="jumbotron text-center text-white bg-dark">
           <div class="container">
-          <h1 class="jumbotron-heading">Album example</h1>
-          <p class="lead text-light">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+          <h1 class="jumbotron-heading">Welcome</h1>
+          <p class="lead text-light">Here you will be able to solve coding questions and earn shmeckles for each question that is completed successfully. Note that harder questions pay more than easier ones. Happy coding!</p>
           <p>
           <div class="b-example-divider text-white bg-dark" style={{paddingTop: 80}}></div>
           </p>
@@ -24,16 +24,16 @@ export default function Dashboard() {
           </section>
       <div class="b-example-divider" style={{paddingTop: 20}}></div>
       <div class="list-group">
-      <a href="#" class="list-group-item list-group-item-action list-group-item-success">Difficulty: Easy</a>
-      <a href="/Home" class="list-group-item list-group-item-action " > Question One </a>
-      <a href="#" class="list-group-item list-group-item-action"> Question Two </a>
+      <a href="#" class="list-group-item list-group-item-action list-group-item-success">Difficulty: Easy (🪙5 Each Question)</a>
+      <a href="/QuestionOne" class="list-group-item list-group-item-action " > Question One </a>
+      <a href="/QuestionTwo" class="list-group-item list-group-item-action"> Question Two </a>
       <div class="b-example-divider" style={{paddingTop: 20}}></div>
-      <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Difficulty: Medium</a>
-      <a href="#" class="list-group-item list-group-item-action"> Question Three </a>
+      <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Difficulty: Medium (🪙10 Each Question)</a>
+      <a href="/QuestionThree" class="list-group-item list-group-item-action"> Question Three </a>
       <div class="b-example-divider" style={{paddingTop: 20}}></div>
-      <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Difficulty: Hard</a>
-      <a href="#" class="list-group-item list-group-item-action"> Question Four </a>
-      <a href="#" class="list-group-item list-group-item-action"> Question Five </a>
+      <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Difficulty: Hard (🪙25 Each Question)</a>
+      <a href="/QuestionFour" class="list-group-item list-group-item-action"> Question Four </a>
+      <a href="/QuestionFive" class="list-group-item list-group-item-action"> Question Five </a>
       <div class="b-example-divider" style={{paddingTop: 20}}></div>
       </div>
     <Footer></Footer>
