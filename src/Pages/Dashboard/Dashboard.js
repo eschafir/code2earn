@@ -16,7 +16,7 @@ export default function Dashboard() {
           <section class="jumbotron text-center text-white bg-dark">
           <div class="container">
           <h1 class="jumbotron-heading">Welcome</h1>
-          <p class="lead text-light">Here you will be able to solve coding questions and earn shmeckles for each question that is completed successfully. Note that harder questions pay more than easier ones. Happy coding!</p>
+          <p class="lead text-light">Here you will be able to solve coding questions and eaçrn Coins for each question that is completed successfully. Note that harder questions pay more than easier ones. Happy coding!</p>
           <p>
           <div class="b-example-divider text-white bg-dark" style={{paddingTop: 80}}></div>
           </p>
