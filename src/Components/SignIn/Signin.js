@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 export default function SignIn() {
     const emailRef = useRef()
     const passwordRef = useRef()
-    const { signin  } = useAuth()
+    const { signin } = useAuth()
     const [error, setError] = useState('')
     const [loading, setLoading] = useState(false)
 

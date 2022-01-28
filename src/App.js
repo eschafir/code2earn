@@ -19,8 +19,8 @@ import SignIn from "./Components/SignIn/Signin";
 import Dashboard from "./Components/Dashboard/Dashboard";
  
 /*
-    TODO: Sign Up not working. User account is not being created when clicking sign up button.
-    Displays "Failed to create an account". Sign In windows shows blank.
+    TODO: Sign In page needs to let user that credentials are correct. Dashboard needs to be directed by Sign In page after
+    users credentials were entered
 */ 
 const App = () => {
   return (
@@ -37,7 +37,11 @@ const App = () => {
                     <SignUp/> 
                   </AuthProvider>
                 } />
-                <Route exact path="/signin" element={<SignIn/>}/>
+                <Route exact path="/signin" element={
+                <AuthProvider>
+                  <SignIn/>
+                </AuthProvider>
+                }/>
                 <Route exact path="/dashboard" element={<Dashboard/>}/>
                 <Route path="*" element={<Navigate to="/" />} />
               </Routes>
