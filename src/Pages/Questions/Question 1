@@ -1,0 +1,11 @@
+import React from "react";
+import { Component } from "react";
+import Compiler from "../../Components/Compiler/Compiler";
+
+function Question () {
+    return (
+        <Compiler/>
+    )
+}
+
+export default Question

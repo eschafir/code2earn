@@ -16,6 +16,7 @@ import Preferences from "./Pages/Preferences/Preferences";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import NavBar from "./Components/Navbar/Navbar";
 import Login from "./Components/Login/login";
+import Compiler from "./Components/Compiler/Compiler";
 
 
 function App () {
@@ -35,6 +36,7 @@ function App () {
         </Routes>
       </main>
     </Router>
+    <Compiler/>
      </>
   );
 }
