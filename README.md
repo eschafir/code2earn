@@ -4,6 +4,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Before running the project, make sure you install the following dependencies:
+
+React:
+### `npm install`
+
+Firebase:
+### `npm install firebase`
+
+React code editor
+### `npm i @uiw/react-textarea-code-editor`
+
+
 In the project directory, you can run:
 
 ### `npm start`
