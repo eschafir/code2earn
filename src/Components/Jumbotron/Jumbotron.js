@@ -28,7 +28,7 @@ class Jumbotron extends Component {
                 <div class="col-md-6">
                 <div class="h-100 p-5 bg-light border rounded-3">
                     <h2>How does it work?</h2>
-                    <p>After creating an account and choosing a plan, you'll be directed to a dashboard full of coding questions. Every question you successfully complete will reward you with Shmeckle Coins. The goal is to save these coins to purchase portions or complete NFTs, while being in complete control of how you would like to handle your assests.</p>
+                    <p>After creating an account and choosing a plan, you'll be directed to a dashboard full of coding questions. Every question you successfully complete will reward you with Code2Earn Coins. The goal is to save these coins to purchase portions or complete NFTs, while being in complete control of how you would like to handle your assests.</p>
                     <button class="btn btn-outline-secondary" type="button">Earn More</button>
                     </div>
                     </div>

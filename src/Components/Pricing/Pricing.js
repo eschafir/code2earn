@@ -27,7 +27,7 @@ class Pricing extends Component {
             <h1 class="card-title pricing-card-title">$10<small class="text-muted fw-light">/mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>5 Questions per day</li>
-              <li>Monthly Shmecklebox</li>
+              <li>Monthly CoinBox</li>
               <li>Email support</li>
               <li>Help center access</li>
             </ul>
@@ -44,7 +44,7 @@ class Pricing extends Component {
             <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>15 Questions per day</li>
-              <li>Weekly Shmecklebox</li>
+              <li>Weekly CoinBox</li>
               <li>Priority email support</li>
               <li>Help center access</li>
             </ul>
@@ -61,7 +61,7 @@ class Pricing extends Component {
             <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>30 Questions per day</li>
-              <li>Daily Shmecklebox</li>
+              <li>Daily CoinBox</li>
               <li>Phone and email support</li>
               <li>Help center access</li>
             </ul>
