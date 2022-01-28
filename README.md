@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Before running the project, make sure you install the following dependencies:
 
-React:
+Node Modules:
 ### `npm install`
 
 Firebase:
